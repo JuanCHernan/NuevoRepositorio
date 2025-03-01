@@ -4,6 +4,9 @@ import numpy as np
 import os
 
 def funcion_():
-    pass
+    print('Funcion Ejecutando...')
+    for i in range(10):
+        print(i)
 
 print('Iniciando Proceso')
+funcion_()
